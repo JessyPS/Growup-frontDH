@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500;700;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+/* tipografia padrão da página*/
+    font-family: 'Roboto', sans-serif;
+    color: #9B9B9B;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/* configuração geral*/
+
+h1 {
+    font-size: 60px;
+    font-weight: 900px;
+    color: #009688;
+}
+
+p {
+    font-size: 20px;
+    width: 500px;
+    max-width: 100%;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #00796B;
+}
+
+header {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #00796B;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header .container {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .menu ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+header .menu ul li {
+    display: inline;
+    list-style: none;
+    padding: 20px;
+} 
+
+section {
+    min-height: 80vh;
+}
+
+/*INDEX*/
+
+section .banner img {
+    width: 700px;
+    max-width: 100%;
+}
+
+section .index {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+/* SOBRE */
+
+section .banner_sobre img{
+    width: 640px;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+section .video{
+    margin: 0 auto;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+section .fundamentos {
+    text-align: center;
+    margin: 20px auto;
+    width: 100%;
+    justify-content: center;
+}
+
+section .fundamentos p {
+    width: 100%;
+}
+
+/* SERVIÇOS */
+
+section .servicos {
+    padding-top: 50px;
+}
+
+section .banner_servicos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 10px 80px ;
+}
+
+/*CONTATO*/
+
+section .container .main {
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+} 
+
+section .contato {
+    margin-top: 30px;
+}
+
+section .contato h1 {
+    font-size: 40px;
+}
+
+section .contato form {
+    width: 500px;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+section .contato form input, 
+section .contato form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0; 
+}
+
+section .contato form textarea {
+    height: 78px;
+    resize: none;
+}
+
+section .contato form button {
+    background-color: #009688;
+    color:#FFFFFF;
+    font-size: 20px;
+    border: none;
+    padding: 5px 50px
+}
+
+section .info {
+    margin-top: 130px;
+} 
+
+section .info p {
+    font-size: 18px;
+}
+
+section .info a {
+    font-size: 18px;
+    color: #009688;
+    text-decoration: none;
+}
+
+section .info iframe {
+    width: 512px;
+    max-width: 100%;
+    height: 216px;
+    border: none;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    background-color: #C4C4C4;
+    height: 7vh;
+    width: 100%;
+    margin-top: 80px;
+}
+
+footer .final {   
+    font-size: 18px;
+    color: #FFFFFF;
+    max-width: 100%;
+}
